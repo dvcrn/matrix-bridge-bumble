@@ -1,5 +1,17 @@
 # Matrix Bumble Bridge
 
+## Disclaimer
+
+Use this project at your own risk.
+
+Using unofficial tooling with Bumble may result in temporary or permanent account restrictions, including account bans. I take no responsibility for any account actions, data loss, or other consequences from using this software.
+
+## Supported Features
+
+- Syncs your Bumble chats into Matrix.
+- Lets you reply to Bumble messages directly from Matrix.
+- Does not support swiping.
+
 ## Project Layout
 
 - `main.go`: bridge entrypoint and startup wiring.
