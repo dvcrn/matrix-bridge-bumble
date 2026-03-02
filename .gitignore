@@ -1,0 +1,6 @@
+*.log.gz
+*.sqlite
+logs/
+registration.yaml
+registration_*.yaml
+config.yaml
