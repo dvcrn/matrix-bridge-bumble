@@ -63,7 +63,9 @@ In a management room with the bridge bot:
 2. Run `login`.
 3. Paste the full Bumble web `curl` command when prompted.
 
-The bridge extracts cookies (`aid`, `HDR-X-User-id`, `session`, `device_id`, etc.) and starts syncing conversations.
+Authentication works by extracting session/token data from the Bumble Web interface and submitting it to the bot during `login`.
+
+The bridge extracts cookies (`aid`, `HDR-X-User-id`, `session`, `device_id`, etc.) from that Bumble Web request and starts syncing conversations.
 
 ## Notes
 
